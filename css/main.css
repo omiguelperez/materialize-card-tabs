@@ -1,0 +1,12 @@
+body {
+	background-color: #eee;
+}
+
+.main-container {
+	margin: 2em 0;
+	padding: 0;
+}
+
+.logo-image {
+	max-width: 200px;
+}

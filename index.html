@@ -6,25 +6,32 @@
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
-	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col s12">
-				<ul class="tabs">
-					<li class="tab col s6"><a href="#signin">Acceder</a></li>
-					<li class="tab col s6"><a href="#signup">Registrarme</a></li>
-				</ul>
-			</div>
-			<div id="signin" class="white">
-				<div class="form-container">
-					<p>Formulario de signin</p>
+			<div class="card main-container col offset-s2 s8">
+				<div class="card-content">
+					<div class="logo center-align">
+						<figure class="logo-container">
+							<img src="img/logo.png" alt="Logo" class="logo-image">
+						</figure>
+					</div>
 				</div>
-			</div>
-			<div id="signup" class="white">
-				<div class="form-container">
-					<p>Formulario de signup</p>
+				<div class="card-tabs">
+					<ul class="tabs tabs-fixed-width">
+						<li class="tab"><a href="#signin">Acceder</a></li>
+						<li class="tab"><a href="#signup">Registrarme</a></li>
+					</ul>
+				</div>
+				<div class="card-content">
+					<div id="signin" class="center-align">
+						<p>Formulario de login</p>
+					</div>
+					<div id="signup" class="center-align">
+						<p>Formulario de signup</p>
+					</div>
 				</div>
 			</div>
 		</div>
