@@ -1,0 +1,15 @@
+{
+  "name": "card-panel",
+  "version": "0.1.0",
+  "description": "Spike de Materialize Card con Tabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oscar Pérez <mr.omiguelperez@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "materialize-css": "^0.98.2"
+  }
+}
