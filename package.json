@@ -9,7 +9,7 @@
   "author": "Oscar Pérez <mr.omiguelperez@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.2.1",
+    "jquery": "^2.1.1",
     "materialize-css": "^0.98.2"
   },
   "devDependencies": {},

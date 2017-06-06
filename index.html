@@ -1,16 +1,36 @@
 <!DOCTYPE html>
-<html lang="es">
-	<head>
-		<meta charset="utf-8">
-		<title>Tutorial Tabs in Card con Materialize</title>
+<html>
+<head>
+	<title>The Materialize Tabs Example</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">      
 
-		<link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
-		<link rel="stylesheet" href="main.css">
-	</head>
-	<body>
-		
-		
-		<script src="node_modules/jquery/dist/jquery.min.js"></script>
-		<script src="node_modules/materialize-css/dist/js/materialize.min.css"></script>
-	</body>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col s12">
+				<ul class="tabs">
+					<li class="tab col s6"><a href="#signin">Acceder</a></li>
+					<li class="tab col s6"><a href="#signup">Registrarme</a></li>
+				</ul>
+			</div>
+			<div id="signin" class="white">
+				<div class="form-container">
+					<p>Formulario de signin</p>
+				</div>
+			</div>
+			<div id="signup" class="white">
+				<div class="form-container">
+					<p>Formulario de signup</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>           
+	<script src="node_modules/materialize-css/dist/js/materialize.min.js"></script> 
+</body>
 </html>
